@@ -1,0 +1,65 @@
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230716/pngtree-blue-wallpaper-images-hd-background-pictures-for-free-vectors-to-download-image_7712130.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+    
+  
+  }
+  
+  
+  .container {
+    background-color: #ffffff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+     /* Green */
+    border-color: #28a745;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838; /* Darker Green */
+    border-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #46a8e5; /* Red */
+    border-color: #44c2f8;
+  }
+  
+  .btn-danger:hover {
+    background-color: #2373c8; /* Darker Red */
+    border-color: #3abbfb;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da; /* Light Red */
+    border-color: #f5c6cb; /* Lighter Red */
+    color: #721c24; /* Dark Red */
+  }
+  .container {
+    background-color: #ffffff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg');
+    background-size: cover;
+    animation: shine 2s infinite alternate;
+  }
+  
+  @keyframes shine {
+    from {
+      box-shadow: 0 0 80px rgba(27, 131, 235, 0.1);
+    }
+    to {
+      box-shadow: 0 0 160px rgba(115, 106, 132, 0.3), 0 0 80px rgba(186, 38, 245, 0.2), 0 0 100px rgba(162, 32, 233, 0.1);
+    }
+  }
+  
